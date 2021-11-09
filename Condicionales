@@ -1,0 +1,38 @@
+// Condicionales - Son expresiones que nos permiten ejecutar diferentes instrucciones dependiendo los valores
+
+// Sentencia IF - Si ocurre cierta condicion se ejecuta el codigo, y si no ocurre otra cosa
+
+let operacion = 5 + 1;
+
+if (operacion >= 7) {
+  console.log("Es true");
+} else { // el comando else se utiliza para devolver una condicion que sea lo contrario al if
+  console.log("Es false")
+}
+
+//
+
+let operacion2 = 5 + 1;
+
+if (operacion2 > 7) {
+  console.log("Es mayor a 7");
+} else if (operacion2 < 7 && operacion > 2){
+  console.log("Está entre 7 y 2")
+} else { 
+  console.log("Es menor de 2")
+}
+
+// Sentencia SWITCH - Podemos sustituir muchos if else 
+
+let operacion3 = 5 + 2
+
+switch (operacion3) {
+  case 0:
+    console.log("El resultado es 0");
+    break; // termina la ejecucion del codigo
+  case 7: 
+    console.log("El resultado es 7");
+    break;
+  default: //por si no se cumple ningun caso
+    console.log("El resultado no es ni 0 ni 7")
+}

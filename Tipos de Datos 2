@@ -1,0 +1,11 @@
+let miNumero = 1 
+typeof(miNumero) //typeof nos ayuda a saber de que tipo es el dato que estamos definiendo.
+
+let miString = "Hola Mundo" //para poder definir una palabras podemos usar diferentes tipos de comillas.
+typeof(miString) 
+
+let miBooleano = true
+typeof(miBooleano) 
+
+let dato //ya que no se ha definido la variable previamente nos dara un error de indefinido
+typeof(dato)

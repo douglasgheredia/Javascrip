@@ -1,0 +1,14 @@
+let suma = 5 + 5
+suma // con el simbolo "+" podemos sumar
+
+let resta = 3 - 2
+resta //con el simbolo "-" podemos restar
+
+let dividir = 3/0
+dividir //con el simbolo "/" podemos dividir
+
+let multiplicar = 9*9
+multiplicar //con el simbolo "*" podemos multiplicar
+
+let potencia = 3 ** 3
+potencia //con el simbolo "**" podemos sacar la potencia de los numeros

@@ -1,0 +1,10 @@
+let Ejemplo = 1
+//El comando Let son variables que nos sirve para almacenar información
+
+let Dato = 1
+console.log(Dato)
+// El comanndo "console.log()" nos ayuda a poder ver lo que hay en las variables (en este caso en "Dato").
+
+let Dato2 
+Dato2 = 2
+// Esta es otra forma en la que se puede definir o llamar a la variable
