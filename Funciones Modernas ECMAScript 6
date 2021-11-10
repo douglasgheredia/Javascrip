@@ -1,0 +1,28 @@
+// Funciones Modernas ECMAScript 6
+
+class Inventario {
+  constructor(nombre) {
+    this.nombre = nombre;
+    this.articulos = [];
+  }
+  
+  getNombre() {
+    return this.nombre;
+  }
+  
+  add(articulo, cantidad) {
+    this.articulos[articulo] = cantidad;
+  }
+  
+  cantidad(articulo) {
+    return this.articulos[articulo]
+  }
+}
+
+let libros = new Inventario('libros');
+libros.getNombre()
+libros.add("Aprendiendo Javacript", 5);
+libros.cantidad('Aprendiendo Javascript');
+
+
+// Observacion - Deberia de devolverme el valor de 5 pero no lo hace.

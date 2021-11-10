@@ -1,0 +1,31 @@
+// Funciones - Son bloques de codigo que podemos reutilizar
+
+function saludar(nombre) {
+  return `¡Hola ${nombre}!` // return "¡Hola " + nombre + "!" ALTERNATIVA
+}
+
+saludar ("Carlos")
+saludar ("Tomas")
+saludar ("Douglas")
+
+// Funciones como Clases (Programacion Orientado a Objetos) (Seria el Molde)
+
+
+function Inventario(nombre){ //Se usa en mayuscula por buenas practicas
+  this.nombre = nombre; //this se usa para definir atributos de la clase
+  this.articulos = [];
+} 
+Inventario.prototype.getNombre = function() {//Para añadir metodos
+  return this.nombre;
+} 
+Inventario.prototype.add = function(articulo, cantidad){
+  this.articulos[articulo] = cantidad; //Clase inventarios
+}
+Inventario.prototype.cantidad = function(articulo){
+  return this.articulos[articulo]//calve del arraid/arreglo
+}
+
+let libros = new Inventario('Libros'); //Creacion de objetos
+libros.getNombre()
+libros.add('Aprendiendo Javascript', 5);
+libros.cantidad('Aprendiendo Javascript'); //Metodo Antiguo
